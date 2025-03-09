@@ -1,6 +1,5 @@
 <h1 align="center">🖥️ Windows Server Essentials</h1>
    
-
 ## 📌 Introduction to Windows Server  
 - 🖥️ What is Windows Server?  
 - 🏠 Windows Server Editions  
