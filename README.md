@@ -1,19 +1,19 @@
 <h1 align="center">🖥️ Windows Server Essentials</h1>
    
 
-📌 **Introduction to Windows Server**  
-🖥️ What is Windows Server?  
-🏠 Windows Server Editions  
-📂 Windows Server Installation and Setup  
-⚙️ Windows Server Roles and Features  
-📡 Remote Desktop Services (RDS)  
+## 📌 Introduction to Windows Server  
+- 🖥️ What is Windows Server?  
+- 🏠 Windows Server Editions  
+- 📂 Windows Server Installation and Setup  
+- ⚙️ Windows Server Roles and Features  
+- 📡 Remote Desktop Services (RDS)  
 
 ### 📂 File System and Storage Management  
-💾 NTFS vs. ReFS File Systems  
-📂 File and Folder Permissions (ACL)  
-📦 Disk Partitioning, Formatting, and Mounting  
-📊 Storage Spaces and RAID Configuration  
-🗜️ File Compression and Deduplication  
+- 💾 NTFS vs. ReFS File Systems  
+- 📂 File and Folder Permissions (ACL)  
+- 📦 Disk Partitioning, Formatting, and Mounting  
+- 📊 Storage Spaces and RAID Configuration  
+- 🗜️ File Compression and Deduplication  
 
 ### 🏗️ User and Group Management  
 👥 Active Directory (AD) Overview  
