@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Windows%20Server%20Logo%201.png" alt="Red Hat Logo" width="500">
+  <img src="https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Logo.png" alt="Red Hat Logo" width="1000">
 </p>
 <p>
 
