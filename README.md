@@ -1,12 +1,4 @@
 
-<p align="center">
-  <marquee behavior="scroll" direction="left">
-    <img src="https://github.com/nikhilpatidar01/Linux-Server/blob/Master/Red%20Hat%20Logo.png" alt="Red Hat Logo" width="200">
-  </marquee>
-</p>
-
-
-
 <p align="left">
   <img src="https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Windows%20Server%20Logo.png" alt="Red Hat Logo" width="300">
 </p>
