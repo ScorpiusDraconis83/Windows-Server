@@ -1,3 +1,5 @@
+![Logo](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Windows%20Server%20Logo.png)
+
 <h1 align="center">🖥️ Windows Server Essentials</h1>
    
 ## 📌 Introduction to Windows Server  
