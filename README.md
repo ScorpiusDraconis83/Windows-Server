@@ -1,4 +1,10 @@
-![Logo](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Windows%20Server%20Logo.png)
+
+
+
+<p align="left">
+  <img src="https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Windows%20Server%20Logo.png" alt="Red Hat Logo" width="200">
+</p>
+
 
 <h1 align="center">🖥️ Windows Server Essentials</h1>
    
