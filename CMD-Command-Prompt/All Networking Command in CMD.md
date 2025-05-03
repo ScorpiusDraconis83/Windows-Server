@@ -36,12 +36,6 @@
 
 ---
 
----
-
-
-Here is the list of common networking commands in Windows Command Prompt (CMD) with commands formatted inside \`\`\`bash for easy copy-pasting:
-
-````markdown
 # Common Networking Commands in Windows Command Prompt (CMD)
 
 ## **Basic Networking Commands**
