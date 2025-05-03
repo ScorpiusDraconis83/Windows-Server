@@ -1,3 +1,6 @@
+## You can run the following commands via the Run dialog (Win + R) or in the Command Prompt/terminal:
+
+
 | No. | Command         | Description                           |
 |-----|-----------------|---------------------------------------|
 | 1   | msconfig        | System Settings.                      |
