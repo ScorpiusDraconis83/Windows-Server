@@ -1,40 +1,3 @@
-**ALL MAC ADDRESS FIND COMMAND**
-- **arp -a**
----
-**PARTICULAR PC MAC ADDRESS FIND COMMAND**
-- **getmac**
----
-**IP ADDRESS FIND COMMAND**
-- **ipconfig**
-- **ipconfig/all**
----
-**SYSTEM INFORMATION FIND COMMAND**
-- **systeminfo**
----
-**DNS Cache Flush**
-- **ipconfig /flushdns**
----
-**DNS Cache Check**
-- **ipconfig/displaydns**
----
-**Domain IP Website IP address and Mac address find**
-- **nslookup google.com**
----
-
-**GROUP POLICY UPDATE COMMAND IN WINDOWD SERVER **
-- **gpupdate /force**
----
-**DNS TYPES Recoreds**
-- **nslookup -type=a google.com**
-- **nslookup -type=aaaa google.com**
-- **nslookup -type=ns google.com**
--  **nslookup -type=mx google.com**
--  **nslookup -type=cname google.com**
-- **nslookup -type=soa google.com**
--  **nslookup -type=ptr google.com**
-- **nslookup -type=rv google.com**
-
----
 
 # Common Networking Commands in Windows Command Prompt (CMD)
 
@@ -316,6 +279,87 @@
 
 ---
 
-These commands are useful for network configuration, troubleshooting, and monitoring in a Windows environment. Make sure to run certain commands with administrative privileges if required.
+## **Additional Networking Commands**
+
+1. **ALL MAC ADDRESS FIND COMMAND**
+   Displays the ARP table, mapping IP addresses to MAC addresses.
+
+   ```bash
+   arp -a
+   ```
+
+2. **PARTICULAR PC MAC ADDRESS FIND COMMAND**
+   Displays the MAC address of the local network interfaces.
+
+   ```bash
+   getmac
+   ```
+
+3. **IP ADDRESS FIND COMMAND**
+   Displays IP configuration information for all network adapters.
+
+   ```bash
+   ipconfig
+   ```
+
+   Displays detailed IP configuration information.
+
+   ```bash
+   ipconfig /all
+   ```
+
+4. **SYSTEM INFORMATION FIND COMMAND**
+   Displays detailed system information including OS version, memory, and network settings.
+
+   ```bash
+   systeminfo
+   ```
+
+5. **DNS Cache Flush**
+   Clears the DNS resolver cache.
+
+   ```bash
+   ipconfig /flushdns
+   ```
+
+6. **DNS Cache Check**
+   Displays the contents of the DNS resolver cache.
+
+   ```bash
+   ipconfig /displaydns
+   ```
+
+7. **Domain IP Website IP address and MAC address find**
+   Queries DNS for a domain's IP address and associated MAC address.
+
+   ```bash
+   nslookup google.com
+   ```
+
+8. **GROUP POLICY UPDATE COMMAND IN WINDOWS SERVER**
+   Forces a group policy update on the machine.
+
+   ```bash
+   gpupdate /force
+   ```
+
+9. **DNS TYPES Records**
+   Queries various DNS records for a domain.
+
+   ```bash
+   nslookup -type=a google.com
+   nslookup -type=aaaa google.com
+   nslookup -type=ns google.com
+   nslookup -type=mx google.com
+   nslookup -type=cname google.com
+   nslookup -type=soa google.com
+   nslookup -type=ptr google.com
+   nslookup -type=rv google.com
+   ```
 
 ---
+
+These commands are useful for network configuration, troubleshooting, and monitoring in a Windows environment. Make sure to run certain commands with administrative privileges if required.
+
+```
+
