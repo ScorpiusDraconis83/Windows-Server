@@ -44,7 +44,7 @@
    Displays IP configuration information for all network adapters.  
    ```bash
    ipconfig
-````
+   ```
 
 2. **ipconfig /all**
    Displays detailed IP configuration information for all network adapters, including MAC address.
