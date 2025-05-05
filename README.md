@@ -69,18 +69,3 @@
 
 ---
 
-
-
-<p align="center">
-  <img src="https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Logo.png" alt="Red Hat Logo" width="1000">
-</p>
-<p>
-
-<h1 align="center">🖥️ Windows Server Essentials</h1>
-   
-## 📌 Introduction to Windows Server  
-- 🖥️ [What is Windows Server?](https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/Introduction%20to%20Windows%20Server.md)  
-- 🏠 [Windows Server Editions](https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/Windows%20Server%20Editions.md)  
-- 📂 [Windows Server Installation and Setup](https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/Windows%20Server%20Installation%20and%20Setup.md)  
-- ⚙️ [Windows Server Roles and Features](https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/Windows%20Server%20Roles%20and%20Features.md)  
-- 📡 [Remote Desktop Services (RDS)](https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/Remote%20Desktop%20Services%20(RDS).md)
