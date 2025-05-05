@@ -70,17 +70,7 @@
 ---
 
 
-It looks like the links provided were not correct. Here's how to properly format the links for GitHub raw files in markdown format:
 
-For example, to link to a file in your GitHub repository, you should use the following format for direct raw content:
-
-```
-https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/<path-to-your-file>
-```
-
-So for your example, it would look something like this:
-
-```markdown
 <p align="center">
   <img src="https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Logo.png" alt="Red Hat Logo" width="1000">
 </p>
@@ -94,8 +84,3 @@ So for your example, it would look something like this:
 - 📂 [Windows Server Installation and Setup](https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/Windows%20Server%20Installation%20and%20Setup.md)  
 - ⚙️ [Windows Server Roles and Features](https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/Windows%20Server%20Roles%20and%20Features.md)  
 - 📡 [Remote Desktop Services (RDS)](https://raw.githubusercontent.com/nikhilpatidar01/Windows-Server/Master/Remote%20Desktop%20Services%20(RDS).md)
-```
-
-Replace the `<path-to-your-file>` with the actual file path. The link above should now properly open the raw file.
-
-You can apply this to all the links where needed in the document. Let me know if you need more help!
