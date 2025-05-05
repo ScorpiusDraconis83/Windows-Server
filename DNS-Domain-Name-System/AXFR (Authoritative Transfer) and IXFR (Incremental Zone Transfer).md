@@ -1,78 +1,85 @@
-### कहानी के रूप में समझाते हैं: **AXFR और IXFR**
+### **Understanding AXFR and IXFR through a Story: "Nikhil and His DNS Friends"**
 
-#### कहानी का शीर्षक: **"Nikhil और उसके DNS दोस्त"**
+#### **Characters:**
 
-**पात्र:**
-- Nikhil: एक इंटरनेट उपयोगकर्ता
-- Primary Server: Nikhil का मुख्य DNS दोस्त
-- Secondary Server: Nikhil का Backup DNS दोस्त
+* **Nikhil**: An internet user.
+* **Primary Server**: Nikhil’s main DNS friend.
+* **Secondary Server**: Nikhil’s backup DNS friend.
 
 ---
 
-#### कहानी शुरू होती है:
+#### **The Story Begins:**
 
-एक बार की बात है, Nikhil नाम का एक लड़का था जो इंटरनेट पर बहुत सारी वेबसाइटें देखना पसंद करता था। Nikhil के पास दो दोस्त थे: एक था Primary Server, जो हमेशा नई जानकारी रखता था, और दूसरा था Secondary Server, जो Backup के रूप में काम करता था।
+Once upon a time, there was a boy named Nikhil who loved browsing websites on the internet. Nikhil had two friends: one was the Primary Server, who always kept the latest information, and the other was the Secondary Server, who worked as a backup.
 
-### AXFR की कहानी
+### **The Story of AXFR**
 
-**एक दिन, Nikhil ने सोचा, "मुझे अपने Backup दोस्त को पूरी जानकारी देनी चाहिए।"** 
+**One day, Nikhil thought, "I should give my backup friend all the information."**
 
-Nikhil ने अपने Primary Server से कहा, "क्या तुम मुझे पूरी जानकारी दे सकते हो ताकि मैं अपने Secondary Server को भी अपडेट कर सकूँ?"
+Nikhil said to the Primary Server, "Can you give me all the information so I can update my Secondary Server?"
 
-Primary Server ने कहा, "बिल्कुल! मैं तुम्हें पूरी जानकारी दूंगा। इसे AXFR कहते हैं।"
+The Primary Server replied, "Of course! I will give you everything. This is called AXFR."
 
-1. **पूरा डेटा ट्रांसफर**: 
-   - Primary Server ने अपने सभी DNS रिकॉर्ड्स को एक साथ Nikhil को दिया। 
-   - Nikhil ने यह जानकारी अपने Secondary Server को भेज दी। 
+1. **Full Data Transfer**:
 
-2. **सभी रिकॉर्ड्स की प्रतिलिपि**: 
-   - अब Secondary Server के पास भी सभी जानकारी थी, और वह हमेशा तैयार था।
+   * The Primary Server transferred all its DNS records to Nikhil at once.
+   * Nikhil then sent this information to his Secondary Server.
 
-### IXFR की कहानी
+2. **Copying All Records**:
 
-**कुछ समय बाद, Nikhil ने देखा कि कुछ रिकॉर्ड्स में बदलाव हुआ है।** 
+   * Now, the Secondary Server also had all the information and was always ready with the updated data.
 
-Nikhil ने कहा, "मुझे अपने Backup दोस्त को केवल बदलाव बताने हैं। क्या तुम मुझे मदद करोगे?"
+### **The Story of IXFR**
 
-Primary Server ने कहा, "बिल्कुल! इसे IXFR कहते हैं।"
+**A little while later, Nikhil noticed some records had changed.**
 
-1. **बदलाव की जानकारी**: 
-   - Nikhil ने अपने Secondary Server से कहा, "मुझे तुम्हारे पास जो जानकारी है, उसका SOA रिकॉर्ड भेजो।"
-   - Secondary Server ने अपना SOA रिकॉर्ड Primary Server को भेजा।
+Nikhil said, "I only need to tell my backup friend about the changes. Can you help me with that?"
 
-2. **बदलाव का ट्रांसफर**: 
-   - Primary Server ने देखा कि Secondary Server के पास पुरानी जानकारी है और उसने केवल बदलावों को भेजा। 
-   - अब Secondary Server के पास भी नई जानकारी थी, लेकिन उसने पूरी जानकारी नहीं ली, केवल जो बदला था।
+The Primary Server replied, "Of course! This is called IXFR."
 
-### निष्कर्ष
+1. **Sending Change Information**:
 
-इस तरह, Nikhil और उसके DNS दोस्तों ने मिलकर अपने डेटा को अपडेट रखा। 
+   * Nikhil asked his Secondary Server, "Please send me your SOA record."
+   * The Secondary Server sent its SOA record to the Primary Server.
 
-- **AXFR** के माध्यम से, उन्होंने पूरी जानकारी को एक बार में ट्रांसफर किया।
-- **IXFR** के माध्यम से, उन्होंने केवल बदलावों को ट्रांसफर किया, जिससे समय और मेहनत की बचत हुई।
+2. **Transferring Changes**:
 
-**इस कहानी के माध्यम से, हमने समझा कि AXFR और IXFR कैसे काम करते हैं और ये DNS सिस्टम में कितने महत्वपूर्ण हैं।**
+   * The Primary Server saw that the Secondary Server had old information and sent only the changes.
+   * Now, the Secondary Server had the updated information, but it didn’t need to take the whole data again, just the changes.
+
+### **Conclusion**
+
+Thus, Nikhil and his DNS friends kept their data updated together.
+
+* **AXFR** allowed them to transfer all the data at once.
+* **IXFR** enabled them to send only the changes, saving time and effort.
+
+**Through this story, we understood how AXFR and IXFR work and how important they are in the DNS system.**
+
 ---
-AXFR (Authoritative Transfer) और IXFR (Incremental Zone Transfer) DNS में दो अलग-अलग प्रकार के zone transfer हैं जो primary और secondary DNS servers के बीच zone data को सिंक करने में मदद करते हैं।
 
-## AXFR (Authoritative Transfer)
+### **AXFR (Authoritative Transfer) and IXFR (Incremental Zone Transfer)**
 
-- AXFR पूरे zone के data को primary server से secondary server में ट्रांसफर करता है।
-- यह TCP connection का उपयोग करता है और client-server transaction के रूप में काम करता है।
-- AXFR क्लाइंट secondary server होता है जो primary server से data मांगता है।
-- AXFR प्रोसेस में एक पूर्वाभ्यास होता है जहां client primary server से SOA (Start of Authority) record का lookup करता है।
-- SOA record में मौजूद serial number client के पास मौजूद serial number से मेल खाता है तो transfer नहीं होता, अन्यथा पूरा zone data transfer हो जाता है।
-- AXFR response में primary server zone के सभी resource records भेजता है। पहला response SOA record होता है और अंत में भी SOA record आता है।
+AXFR and IXFR are two different types of zone transfers in DNS that help synchronize zone data between primary and secondary DNS servers.
 
-## IXFR (Incremental Zone Transfer)
+### **AXFR (Authoritative Transfer)**
 
-- IXFR केवल zone में हुए बदलावों को primary server से secondary server में ट्रांसफर करता है।
-- यह भी TCP का उपयोग करता है लेकिन AXFR से थोड़ा अलग है।
-- IXFR क्लाइंट भी secondary server होता है।
-- IXFR क्लाइंट अपने पास मौजूद SOA record primary server को भेजता है ताकि primary server को पता चले कि क्लाइंट के पास zone का कौन सा version है।
-- primary server इस SOA record की serial number देखकर क्लाइंट के पास मौजूद zone version का पता लगाता है।
-- फिर primary server क्लाइंट के पास मौजूद version से लेकर अपने पास मौजूद latest version तक के बदलावों को भेजता है।
+* AXFR transfers the entire zone data from the primary server to the secondary server.
+* It uses a TCP connection and works as a client-server transaction.
+* The AXFR client is the secondary server, which requests data from the primary server.
+* In the AXFR process, the client looks up the SOA (Start of Authority) record from the primary server.
+* If the serial number in the SOA record matches the serial number the client has, no transfer happens; otherwise, the entire zone data is transferred.
+* In the AXFR response, the primary server sends all resource records in the zone. The first and last records in the transfer are the SOA records.
 
-इस तरह AXFR पूरे zone को ट्रांसफर करता है जबकि IXFR केवल बदलावों को ट्रांसफर करके समय और bandwidth की बचत करता है। लेकिन IXFR के लिए primary और secondary server के पास पहले से ही zone का कुछ version होना चाहिए।
+### **IXFR (Incremental Zone Transfer)**
+
+* IXFR only transfers the changes made to the zone from the primary server to the secondary server.
+* It also uses TCP but differs from AXFR.
+* The IXFR client is the secondary server.
+* The IXFR client sends its SOA record to the primary server to let it know which version of the zone the client has.
+* The primary server compares the serial number in the SOA record to the version the client has and identifies the changes.
+* The primary server then sends only the changes from the client’s version to the latest version.
+
+In this way, AXFR transfers the entire zone, while IXFR transfers only the changes, saving time and bandwidth. However, IXFR requires that both the primary and secondary servers already have some version of the zone data.
 
 ---
