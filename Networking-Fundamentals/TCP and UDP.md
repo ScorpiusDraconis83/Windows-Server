@@ -1,54 +1,104 @@
-TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two important transport layer protocols of the internet. Both are used for data transfer, but there are significant differences in how they operate.
+
+# TCP vs UDP – Simple Explanation with Examples
+
+**TCP (Transmission Control Protocol)** and **UDP (User Datagram Protocol)** are two main **transport layer protocols**. Both are used for sending data, but they work very differently.
+
+---
 
 ## TCP (Transmission Control Protocol)
 
-**Definition**: TCP is a connection-oriented protocol, meaning it establishes a connection before sending data.
+### Definition:
 
-**Features**:
+TCP is a **connection-oriented** protocol. It creates a connection between sender and receiver **before** sending data.
 
-* **Reliability**: TCP acknowledges the receipt of data. If any packet is lost, it is retransmitted.
-* **Speed**: It is relatively slower because it requires establishing a connection and confirming the data transfer.
-* **Use**: It is used in activities like sending emails, web browsing, and file transfers.
+### Features:
 
-**TCP Header**: It has a header of 20 to 60 bytes, which includes source and destination ports, sequence numbers, and other control information.
+* **Reliable**: Ensures data reaches the receiver. If data is lost, TCP **resends it**.
+* **Slower**: Takes more time because it **sets up the connection** and **confirms each packet**.
+* **Used For**:
+
+  * Web Browsing (HTTP, HTTPS)
+  * Sending Emails (SMTP, IMAP)
+  * File Transfers (FTP)
+
+### TCP Header:
+
+* Size: **20 to 60 bytes**
+* Includes:
+
+  * Source & Destination Port
+  * Sequence Number
+  * Acknowledgment Number
+  * Control Flags (SYN, ACK, etc.)
+
+---
 
 ## UDP (User Datagram Protocol)
 
-**Definition**: UDP is a connectionless protocol. It sends data directly without establishing a connection.
+### Definition:
 
-**Features**:
+UDP is a **connectionless** protocol. It **sends data directly** without creating a connection.
 
-* **Unreliability**: UDP does not acknowledge the receipt of data or retransmit lost packets.
-* **Speed**: It is faster than TCP due to lower overhead.
-* **Use**: It is used in activities like live streaming, online gaming, and voice calling.
+### Features:
 
-**UDP Header**: Its header is simpler, only 8 bytes, and includes source and destination ports, length, and checksum.
+* **Not Reliable**: Doesn’t check if data arrived or resend lost data.
+* **Faster**: Less overhead, no connection setup or acknowledgments.
+* **Used For**:
+
+  * Online Gaming
+  * Live Streaming
+  * Voice Calls (VoIP)
+
+### UDP Header:
+
+* Size: **8 bytes**
+* Includes:
+
+  * Source & Destination Port
+  * Length
+  * Checksum
+
+---
 
 ## Key Differences Between TCP and UDP
 
-| Feature         | TCP (Transmission Control Protocol) | UDP (User Datagram Protocol) |
-| --------------- | ----------------------------------- | ---------------------------- |
-| Connection Type | Connection-oriented                 | Connectionless               |
-| Reliability     | Reliable                            | Unreliable                   |
-| Speed           | Slower                              | Faster                       |
-| Usage           | Email, web browsing, file transfer  | Live streaming, gaming       |
-
-## Port Numbers
-
-Both TCP and UDP have different port numbers used to identify various services. For example:
-
-* **TCP Port Numbers:**
-
-  * HTTP: 80
-  * HTTPS: 443
-  * FTP: 21
-
-* **UDP Port Numbers:**
-
-  * DNS: 53
-  * DHCP: 67/68
-  * SNMP: 161
-
-The choice between these protocols depends on your networking needs. If you need reliability, TCP is better, while if speed is the priority, UDP is more suitable.
+| Feature     | TCP (Transmission Control Protocol) | UDP (User Datagram Protocol)     |
+| ----------- | ----------------------------------- | -------------------------------- |
+| Connection  | Connection-oriented                 | Connectionless                   |
+| Reliability | Reliable (acknowledges & resends)   | Unreliable (no checks or resend) |
+| Speed       | Slower (more overhead)              | Faster (low overhead)            |
+| Use Cases   | Web, Email, File Transfer           | Games, Voice Calls, Streaming    |
 
 ---
+
+## Common Port Numbers
+
+Both protocols use **port numbers** to identify services:
+
+### TCP Port Numbers:
+
+| Service | Port |
+| ------- | ---- |
+| HTTP    | 80   |
+| HTTPS   | 443  |
+| FTP     | 21   |
+
+### UDP Port Numbers:
+
+| Service | Port   |
+| ------- | ------ |
+| DNS     | 53     |
+| DHCP    | 67, 68 |
+| SNMP    | 161    |
+
+---
+
+## When to Use TCP or UDP?
+
+| Situation                        | Use         |
+| -------------------------------- | ----------- |
+| Need for **accurate delivery**   | Use **TCP** |
+| Need for **speed over accuracy** | Use **UDP** |
+
+---
+
