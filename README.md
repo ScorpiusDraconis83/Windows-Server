@@ -92,3 +92,7 @@
 ## 📌NAT and ARP  
 - 🖥️ [NAT (Network Address Translation)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/NAT%20and%20ARP/1.%20NAT%20and%20ARP.md#1-nat-network-address-translation)
 - 🖥️ [ARP (Address Resolution Protocol)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/NAT%20and%20ARP/1.%20NAT%20and%20ARP.md#2-arp-address-resolution-protocol)
+
+## 📌 ngrok  
+- 🖥️ [What is ngrok)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Ngrok/1.%20ngrok.md#introduction-to-ngrok)
+- 🖥️ [How to Use Ngrok)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Ngrok/2.%20How%20to%20work%20Ngrok.md#-how-to-use-ngrok)
