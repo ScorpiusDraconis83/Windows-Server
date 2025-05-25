@@ -156,5 +156,30 @@
 - [DHCP Starvation Attack](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DHCP-Dynamic-Host-Configuration-ProtocoI/3.%20DHCP%20Starvation%20Attack.md#what-is-dhcp)
 - [DORA process](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DHCP-Dynamic-Host-Configuration-ProtocoI/4.%20DORA%20Process.md)
 
- 
+## DNS (Domain Name System)
+- [Story of Domain Name Structure](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/1.%20Domain%20Name%20Structure.md)
+- [Domain Appraisal](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/2.%20Domain%20Appraisals.md#-domain-appraisal)
+- [Hosts File in Windows](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/3.%20Hosts%20File%20in%20Windows.md#what-is-the-hosts-file)
+- [Working of DNS](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/4.%20Working%20of%20DNS.md#the-story-of-dns-the-beginning-of-a-journey)
+- [Type of DNS Server](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/5.%20DNS%20Server%20Types%20and%20DNS%20Records.md#dns-server-types)
+- [Recursive (Caching) DNS Server](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/6.%20Recursive%20(Caching)%20DNS%20Server.md#recursive-caching-dns-server-a-crucial-role-in-domain-name-resolution)
+- [DNS in Wireshark](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/7.%20DNS%20in%20Wireshark.md#wireshark-a-simple-and-effective-method-for-analyzing-dns-traffic)
+- [NetBIOS Name?](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/8.%20NetBios%20Name%20in%20Windows.md#what-is-a-netbios-name)
+- [What is a Primary DNS Server?](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/9.%20Primary%20DNS%20Server%20in%20Windows%20Server.md#understanding-primary-dns-server-through-a-story-nikhil-and-his-computer)
+- [What is a Secondary DNS Server?](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/Secondary%20DNS%20Server%20Configure%20Windows.md#explaining-in-story-form-nikhil-and-his-secondary-dns-server)
+- [Dynamic DNS Server](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/Dynamic%20DNS%20Server.md#what-is-dynamic-dns-server)
+- [AXFR (Authoritative Transfer) and IXFR (Incremental Zone Transfer)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/DNS-Domain-Name-System/AXFR%20(Authoritative%20Transfer)%20and%20IXFR%20(Incremental%20Zone%20Transfer).md#understanding-axfr-and-ixfr-through-a-story-nikhil-and-his-dns-friends)
+
+## Internet Information Services (IIS) COnfiguration  
+- [Types of Site Binding](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Internet%20Information%20Services%20(IIS)%20Configuration%20in%20Windows/1.%20Types%20of%20Sites%20Binding.md#website-binding-with-iis)
+- [site Binding in Windows Server](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Internet%20Information%20Services%20(IIS)%20Configuration%20in%20Windows/2.%20Site%20Binding%20Windows%20Server%202022.md#setting-up-site-binding-on-windows-server-2022)
+- [IIS Site Binding Setting Configuraiton](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Internet%20Information%20Services%20(IIS)%20Configuration%20in%20Windows/3.%20IIS%20Site%20Setting%20Configuration.md#iis-manager-all-site-settings)
+- [FTP Server](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Internet%20Information%20Services%20(IIS)%20Configuration%20in%20Windows/4.%20FTP%20Server%20Installation%20in%20Window.md#using-ftp-for-data-sharing)
+- [FTP Site Bindig](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Internet%20Information%20Services%20(IIS)%20Configuration%20in%20Windows/5.%20FTP%20Site%20Binding%20Windows%20Server.md#ftp-site-binding-in-windows-server-2022)
+- [FTP Server Configuration](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Internet%20Information%20Services%20(IIS)%20Configuration%20in%20Windows/6.%20FTP%20Server%20Configuration.md#benefits-of-ftp)
+
+
+
+
+
  [Windows Server Exam Certificate](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Certified-Windows-Server-Administrator_page-0001.jpg)
