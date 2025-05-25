@@ -102,3 +102,7 @@
 - [Install Windows Server 2012 R2 in VirtualBox](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Oracle-VM-VirtualBox/2.%20Windows%20Server%202012%20R2%20Installation.md#how-to-install-windows-server-2012-r2-in-virtualbox)
 - [ What is Windows Manager?](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Oracle-VM-VirtualBox/3.%20Windows%20Manage.md#what-is-windows-manager)
 - [What is Server Manager?](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Oracle-VM-VirtualBox/4.%20Server%20Manager%20in%20Windows%20Server%202012.md#what-is-server-manager)
+
+## Commands and Shortcuts
+- [Common Networking Commands in Windows Command Prompt (CMD)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/CMD-Command-Prompt/1.%20All%20Networking%20Command%20in%20CMD.md#common-networking-commands-in-windows-command-prompt-cmd)
+- [Windows Shortcuts](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/CMD-Command-Prompt/2.%20Windows%20Shortcut%20Commands.md#you-can-run-the-following-commands-via-the-run-dialog-win--r-or-in-the-command-promptterminal)
