@@ -88,4 +88,6 @@ In this way, users can access the website without any disruption.
 A **Secondary DNS Server** is an essential tool that ensures the availability and reliability of websites. It works alongside the Primary DNS Server to make sure users always get the correct information, whether the Primary Server is available or not.
 
 ---
+![Primary and Secondary Server with Zone](https://github.com/nikhilpatidar01/Windows-Server/raw/Master/DNS-Domain-Name-System/Diagram%20Photo/Primary%20and%20Secondory%20Server%20with%20Zone.png)
 
+---
