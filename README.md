@@ -96,3 +96,9 @@
 ## 📌 ngrok  
 - 🖥️ [What is ngrok)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Ngrok/1.%20ngrok.md#introduction-to-ngrok)
 - 🖥️ [How to Use Ngrok)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Ngrok/2.%20How%20to%20work%20Ngrok.md#-how-to-use-ngrok)
+
+## Installation 
+- [Install Windows 7 in Oracle VM VirtualBox](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Oracle-VM-VirtualBox/1.%20Windows%207%20Installation.md#how-to-install-windows-7-in-oracle-vm-virtualbox)
+- [Install Windows Server 2012 R2 in VirtualBox](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Oracle-VM-VirtualBox/2.%20Windows%20Server%202012%20R2%20Installation.md#how-to-install-windows-server-2012-r2-in-virtualbox)
+- [ What is Windows Manager?](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Oracle-VM-VirtualBox/3.%20Windows%20Manage.md#what-is-windows-manager)
+- [What is Server Manager?](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Oracle-VM-VirtualBox/4.%20Server%20Manager%20in%20Windows%20Server%202012.md#what-is-server-manager)
