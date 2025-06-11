@@ -147,5 +147,5 @@
 
 ---
 
-📜 [Windows Server Exam Certificate](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Certified-Windows-Server-Administrator_page-0001.jpg)
+📜 [Windows Server Exam Certificate](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Windows%20Server%20Administrator%20Exam%20Certified.jpg)
 
