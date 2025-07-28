@@ -20,6 +20,7 @@
 - 🌐 [OSI (Open Systems Interconnection) Model](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Networking-Fundamentals/9.%20OSI%20Model%20in%20Computer%20Network.md#osi-open-systems-interconnection-model)
 - 🌐 [TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Networking-Fundamentals/9.1.%20TCP%20and%20UDP.md#tcp-vs-udp--simple-explanation-with-examples)
 - 🌐 [Internet Services with TCP and UDP Ports](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Networking-Fundamentals/9.2.%20Internet%20Services%20with%20TCP%20and%20UDP%20Ports.md#-internet-services-with-tcpudp-ports--use-case-based-table)
+- 🌐 [Booting Process](https://github.com/nikhilpatidar01/Windows-Server/blob/Master/Networking-Fundamentals/9.3%20Booting%20Process.md)
 
 ---
 
